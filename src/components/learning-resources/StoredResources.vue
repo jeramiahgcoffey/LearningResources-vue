@@ -19,9 +19,7 @@ export default {
   components: {
     LearningResource,
   },
-  props: {
-    resources: Array,
-  },
+  inject: ['resources'],
 };
 </script>
 
